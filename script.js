@@ -22,7 +22,9 @@ document.getElementById('khodamForm').addEventListener('submit', function(event)
         'Gilang ojol',
         'Kak gem',
         'Kereta argo ngawi jesgejes',
-        'Pokemon bogor',    
+        'Pokemon bogor',
+        'Icikiwir',
+        'Bayi kokonut',
     ];
     let randomIndex = Math.floor(Math.random() * khodams.length);
     let khodam = khodams[randomIndex];
