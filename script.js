@@ -28,11 +28,14 @@ document.getElementById('khodamForm').addEventListener('submit', function(event)
         'Tung tung sahur',
         'Brr brr patapim',
         'Boneka Ambalabu',
-        'lirili larila'
+        'lirili larila',
+        'Ubi hitam sahroni',
+        'Bahlil hitam',
     ];
     let randomIndex = Math.floor(Math.random() * khodams.length);
     let khodam = khodams[randomIndex];
     
     result.textContent = `${khodam}`;
 });
+
 
